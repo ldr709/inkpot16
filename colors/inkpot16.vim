@@ -52,7 +52,7 @@ if has("gui_running")
     if ! g:inkpot_black_background
         hi Normal         gui=NONE   guifg=#cfbfad   guibg=#1e1e27
     else
-        hi Normal         gui=NONE   guifg=#cfbfad   guibg=#000000
+        hi Normal         gui=NONE   guifg=#fcfcfc   guibg=#000000
     endif
 
     hi CursorLine         guibg=#2e2e37
